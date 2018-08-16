@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Board = /** @class */ (function () {
+export var Board = /** @class */ (function () {
     function Board(width, height) {
         //Board Properties
         this.rows = [];
@@ -84,4 +84,3 @@ var Board = /** @class */ (function () {
     };
     return Board;
 }());
-exports.default = Board;
